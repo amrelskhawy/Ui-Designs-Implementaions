@@ -1,7 +1,7 @@
 
 # Sign Up Page
 
-Modern Sign Up Page Design Design made in pure Html and Css
+Modern Sign Up Page Design made in pure Html and Css
 
 
 ## Screenshots

@@ -1,25 +1,23 @@
-# **Create Your Acount** 
-## Modern Sign Up Page Design Design 
-## You Can Check the **[Design in High Quality](https://www.behance.net/gallery/149383929/Daily-UI-Figma-challenge)** 
-<br />
-<br />
 
-## **UI Design By Maha Ali**
+# Sign Up Page
 
-## You can Follow her on : **[LinkedIn](https://www.linkedin.com/in/maha-aly-639387156/)**
+Modern Sign Up Page Design Design made in pure Html and Css
 
-## Check her Other Designs on **[Behance](https://www.behance.net/mahaalizidan95)**
 
-<br />
-<br />
+## Screenshots
 
-## **Coded By Me**
+![App Screenshot](imgs/preview.png)
 
-## You can Follow me on : **[LinkedIn](https://www.linkedin.com/in/amr-elskhawy/)**
+## Features
 
+- Modern Design
+- New and Modern Colors
 
 <br />
-<br />
 
-## **Preview Of the Project**
-![](imgs/preview.png)
+## Made By :
+- **Maha Ali** -> "UI Designer"
+  - You Can Follow Here on **[LinkedIn](https://www.linkedin.com/in/maha-aly-639387156/)**
+  - Check her Other Designs on **[Behance](https://www.behance.net/mahaalizidan95)**
+- **Amr Elskhawy** -> "Frontend Developer"
+  - You can Follow me on : **[LinkedIn](https://www.linkedin.com/in/amr-elskhawy/)**

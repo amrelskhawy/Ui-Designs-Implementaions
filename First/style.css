@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 50%;
+}
+
+.circle-1 {
+    width: 413px;
+    height: 413px;
+    left: 809px;
+    top: 517px;
+}
+
+.circle-2 {
+    width: 209px;
+    height: 209px;
+    left: 339px;
+    top: -74px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(22px);
+
+}
+
+.box-container {
+    display: flex;
+    margin: 2rem;
+    gap: 6rem;
+    align-items: center;
+    position: relative;
+}
+
+.box-container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0.2rem;
+
+}
+.box-container p {
+    margin-bottom: 2rem;
+    color: #656565;
+    font-size: 14px;
+
+}
+
+.left {
+    max-width: 360px;
+}
+
+.left .logo {
+    position: absolute;
+    top: 0;
+    left: -100px;
+}
+.left form {
+    display: grid;
+    gap: 5px;
+}
+
+.left form input {
+    padding: .8rem 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: grid;
+    width: 100%;
+    gap: 6px;
+}
+.remember-me {
+    margin: 1rem 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 12px;
+}
+
+button {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 5rem;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    display: block;
+    background-color: #98120F;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: rgb(160, 0, 0);
+}
+.icon {
+    width: 19px;
+    position: relative;
+}
+
+input[type="checkbox"] {
+    background-color: red;
+}
+
+
+h4 {
+    position: relative;
+    text-align: center;
+    margin: 1rem 0;
+    color: #26262699;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+h4:before {
+    content: '';
+    position: absolute;
+    height: 0.2px;
+    width: 130px;
+    background-color: #26262699;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h4:after {
+    content: '';
+    position: absolute;
+    height: 0.2px;
+    width: 130px;
+    background-color: #26262699;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+ a {
+    color: #000000;
+    font-weight: 600;
+    
+}
+
+
+.have-acc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 2rem;
+}
+.have-acc p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.have-acc p:first-of-type {
+    font-size: 12px;
+    margin: 0;
+}
+
+p > span {
+    color: #98120F;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.img-container {
+    width: 591px;
+    height: 752px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.img-container img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+.img-container h5 {
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    font-size: 22px;
+    bottom: 28px;
+    left: 25px;
+    font-weight: 600;
+
+}
